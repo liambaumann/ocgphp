@@ -40,5 +40,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         Year Published: <input type="text" name="year_published" value="<?php echo $row['year_published']; ?>"><br>
         <input type="submit" value="Update Book">
     </form>
+    <a href="index.php">Back</a>
 </body>
 </html>

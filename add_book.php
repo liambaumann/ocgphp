@@ -31,5 +31,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         Year Published: <input type="text" name="year_published"><br>
         <input type="submit" value="Add Book">
     </form>
+    <a href="index.php">Back</a>
 </body>
 </html>
